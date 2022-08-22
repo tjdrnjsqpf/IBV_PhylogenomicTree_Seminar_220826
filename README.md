@@ -48,17 +48,20 @@ cd
 
 vi .profile
 
+---
+
 [Write] 
 
 export PATH="$PATH:/home/lsg/lsg/bin"
 
 ESC + : + wq
 
+---
 source .profile
 
 ---
-
-
+---
+---
 ## trimAl download
 
 
