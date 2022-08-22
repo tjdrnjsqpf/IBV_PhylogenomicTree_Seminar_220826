@@ -15,12 +15,16 @@ cd core
 
 vi Makefile
 
+---------------------------
 From:
 PREFIX = /usr/local
 To:
 PREFIX = /home/your_home/somewhere (must be absolute path)
+---------------------------
 
 
 make clean
+
 make
+
 make install
