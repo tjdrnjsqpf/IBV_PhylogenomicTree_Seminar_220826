@@ -1,7 +1,7 @@
 # IBV_PhylogenomicTree_Seminar_220826
 
 
-## Mafft download 
+## 01 Mafft download 
 https://mafft.cbrc.jp/alignment/software/source.html
 
 
@@ -60,9 +60,46 @@ ESC + : + wq
 source .profile
 
 ---
+
+## 02 trimAl download
+
+git clone https://github.com/inab/trimal.git
+
+cd trimal
+
+cd souece
+
+make
+
 ---
+
+## 03 phyutility download
+
+wget https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/phyutility/phyutility_2_2_6.tar.gz
+
+tar -xf phyutility_2_2_6.tar.gz
+
+cd phyutility
+
+./phyutility
+
+
 ---
-## trimAl download
+
+
+## 04 iqTree download
+
+wget https://github.com/Cibiv/IQ-TREE/releases/download/v1.6.12/iqtree-1.6.12-Linux.tar.gz
+
+tar -xf iqtree-1.6.12-Linux.tar.gz 
+
+cd bin
+
+./iqtree
+
+
+
+
 
 
 
