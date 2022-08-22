@@ -26,6 +26,16 @@ PREFIX = /home/your_home/somewhere (must be absolute path)
 
 ---------------------------
 
+---------------------------
+From:
+
+BINDIR = $(PREFIX)/bin
+
+To:
+
+BINDIR = /home/your_home/bin (or elsewhere in your command-search path)
+
+---------------------------
 
 make clean
 
