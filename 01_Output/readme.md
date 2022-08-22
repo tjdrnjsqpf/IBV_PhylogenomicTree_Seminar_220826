@@ -1,1 +1,0 @@
-Mafft output
