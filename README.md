@@ -1,7 +1,7 @@
 # IBV_PhylogenomicTree_Seminar_220826
 
 
-### Mafft download 
+## Mafft download 
 https://mafft.cbrc.jp/alignment/software/source.html
 
 
@@ -42,3 +42,24 @@ make clean
 make
 
 make install
+
+
+cd 
+
+vi .profile
+
+[Write] 
+
+export PATH="$PATH:/home/lsg/lsg/bin"
+
+ESC + : + wq
+
+source .profile
+
+---
+
+
+## trimAl download
+
+
+
