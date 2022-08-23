@@ -63,11 +63,13 @@ source .profile
 
 ## 02 trimAl download
 
-git clone https://github.com/inab/trimal.git
+wget http://trimal.cgenomics.org/_media/trimal.v1.2rev59.tar.gz
 
-cd trimal
+tar -xf trimal.v1.2rev59.tar.gz
 
-cd souece
+cd trimAl
+
+cd source
 
 make
 
@@ -92,6 +94,8 @@ cd phyutility
 wget https://github.com/Cibiv/IQ-TREE/releases/download/v1.6.12/iqtree-1.6.12-Linux.tar.gz
 
 tar -xf iqtree-1.6.12-Linux.tar.gz 
+
+cd iqtree-1.6.12-Linux
 
 cd bin
 
